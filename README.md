@@ -21,15 +21,10 @@ Beberapa fitur yang digunakan:
    npm run dev
 Buka browser dan akses:
 
-arduino
 Salin kode
 http://localhost:8000
 © 2025 Andi Nur Akifah
 
-yaml
-Salin kode
-
----
 
 ### 🚀 Setelah selesai edit:
 Simpan file, lalu kirim ke GitHub dengan:
