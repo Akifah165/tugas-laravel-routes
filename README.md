@@ -1,7 +1,7 @@
 # Proyek Laravel Routes & Views
 
 **Nama:** Andi Nur Akifah  
-**NIM:** 2310120003 
+**NIM:** 2310120003  
 **Prodi:** Sistem Informasi - Semester 5  
 
 ## Deskripsi
