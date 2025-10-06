@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>About</title>
-</head>
-<body>
-    <h1>About Us</h1>
-    <p>Bismillah Growana</p>
-</body>
-</html>
+@extends('layout')
+
+@section('title','About')
+
+@section('content')
+  <h1>About Us</h1>
+  <p>Bismillah Pandu Karir</p>
+@endsection

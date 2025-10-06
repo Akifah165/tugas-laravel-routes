@@ -6,15 +6,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', function () {
-    return view('home');
-});
-
-
 Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/program', function () {
+    $programs = ['Web Development','Data Science','UI/UX'];
+    return view('program-list', compact('programs'));
+});
 
 Route::get('/program/{name}', function ($name) {
     return view('program', ['programName' => $name]);
@@ -27,7 +26,13 @@ Route::prefix('team')->group(function () {
     });
 
     Route::get('/member/{id}', function ($id) {
-        return "Detail Member with ID: " . $id;
+        $members = [
+          1 => 'Andi Nur Akifah',
+          2 => 'Anisa',
+          3 => 'Anita Zakiati',
+        ];
+        $name = $members[$id] ?? 'Unknown';
+        return view('member', compact('id','name'));
     });
 });
 
@@ -43,4 +48,8 @@ Route::redirect('/home', '/');
 Route::fallback(function () {
     return "Sorry, the page you are looking for was not found.";
 });
+
+
+
+
 
