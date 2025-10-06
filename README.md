@@ -1,7 +1,7 @@
 # Proyek Laravel Routes & Views
 
 **Nama:** Andi Nur Akifah  
-**NIM:** [tulis NIM kamu]  
+**NIM:** 2310120003 
 **Prodi:** Sistem Informasi - Semester 5  
 
 ## Deskripsi
@@ -26,7 +26,7 @@ http://localhost:8000
 © 2025 Andi Nur Akifah
 
 
-### 🚀 Setelah selesai edit:
+### Setelah selesai edit:
 Simpan file, lalu kirim ke GitHub dengan:
 
 ```bash
